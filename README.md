@@ -26,13 +26,13 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
 ```
 {
   "repositories": [
-    {
-      "type": "git",
-      "url": "https://github.com/cloudmersive/cloudmersive_virusscan_api_client.git"
-    }
-  ],
+        {
+            "type": "vcs",
+            "url": "https://github.com/meltir/Cloudmersive.APIClient.PHP.VirusScan"
+        }
+    ],,
   "require": {
-    "cloudmersive/cloudmersive_virusscan_api_client": "*@dev"
+    "cloudmersive/cloudmersive_virusscan_api_client": "dev-guzzle7-php81"
   }
 }
 ```
