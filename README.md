@@ -1,3 +1,10 @@
+# Fork
+This repository is a fork of the original library, but updated to use guzzle7 and work on php8.1
+
+This repository is unsupported and might not receive timely updates.
+
+The change to guzzle7, changes the minimal version of PHP supported by this library to 7.2.5
+
 # cloudmersive_virusscan_api_client
 The Cloudmersive Virus Scan API lets you scan files and content for viruses and identify security issues with content.
 
