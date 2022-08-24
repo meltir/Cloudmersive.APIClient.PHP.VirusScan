@@ -28,6 +28,7 @@
 
 namespace Swagger\Client;
 
+use PHPUnit\Framework\TestCase;
 use \Swagger\Client\Configuration;
 use \Swagger\Client\ApiException;
 use \Swagger\Client\ObjectSerializer;
@@ -40,34 +41,34 @@ use \Swagger\Client\ObjectSerializer;
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
-class ScanCloudStorageApiTest extends \PHPUnit_Framework_TestCase
+class ScanCloudStorageApiTest extends TestCase
 {
 
     /**
      * Setup before running any test cases
      */
-    public static function setUpBeforeClass()
+    public static function setUpBeforeClass(): void
     {
     }
 
     /**
      * Setup before running each test case
      */
-    public function setUp()
+    public function setUp(): void
     {
     }
 
     /**
      * Clean up after running each test case
      */
-    public function tearDown()
+    public function tearDown(): void
     {
     }
 
     /**
      * Clean up after running all test cases
      */
-    public static function tearDownAfterClass()
+    public static function tearDownAfterClass(): void
     {
     }
 
