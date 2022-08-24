@@ -1076,7 +1076,6 @@ class ScanCloudStorageApi
         );
 
         $query = \GuzzleHttp\Psr7\Query::build($queryParams);
-//        $query = \GuzzleHttp\Psr7\Query::build($queryParams);
         return new Request(
             'POST',
             $this->config->getHost() . $resourcePath . ($query ? "?{$query}" : ''),

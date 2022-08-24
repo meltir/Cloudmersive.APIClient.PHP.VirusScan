@@ -16,7 +16,7 @@ The Cloudmersive Virus Scan API lets you scan files and content for viruses and 
 
 ## Requirements
 
-PHP 5.5 and later
+PHP 7.2.5 and later
 
 ## Installation & Usage
 ### Composer
@@ -30,7 +30,7 @@ To install the bindings via [Composer](http://getcomposer.org/), add the followi
             "type": "vcs",
             "url": "https://github.com/meltir/Cloudmersive.APIClient.PHP.VirusScan"
         }
-    ],,
+    ],
   "require": {
     "cloudmersive/cloudmersive_virusscan_api_client": "dev-guzzle7-php81"
   }
